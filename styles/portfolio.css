@@ -21,7 +21,7 @@ nav ul{ display: flex;
             color: var(--White-Color, #FFF);
             border: none;}
 
-.banner{margin: 0 200px;
+.banner{margin: 0px 0px;
        display: flex;
        align-items: center;}
 
@@ -37,6 +37,12 @@ nav ul{ display: flex;
                    font-size: 18px;font-weight: 400;margin-bottom: 49px;
                    }
 
+.header{background: #FFF8F3;
+       background-image: url("../images/header_bg.png"), url(../images/developer.png);
+       background-repeat:no-repeat;
+       background-position: bottom right,left;
+       }
+       
 
 
 
