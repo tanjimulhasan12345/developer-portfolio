@@ -21,8 +21,7 @@ nav ul{ display: flex;
             color: var(--White-Color, #FFF);
             border: none;}
 
-.banner{margin: 0px 0px;
-       display: flex;
+.banner{ display: flex;
        align-items: center;}
 
 .banner-title1{font-size: 45px;font-weight: 600;
@@ -34,17 +33,52 @@ nav ul{ display: flex;
               margin-bottom: 20px;}
 
 .banner-description{color: var(--Dark-03, #757575);
-                   font-size: 18px;font-weight: 400;margin-bottom: 49px;
+                   font-size: 18px;font-weight: 400;margin-bottom: 49px;line-height: 30px;
                    }
 
 .header{background: #FFF8F3;
        background-image: url("../images/header_bg.png"), url(../images/developer.png);
        background-repeat:no-repeat;
-       background-position: bottom right,left;
+       background-position: bottom right,left; padding-top: 10px;
        }
+
+.main{max-width: 1140px;
+       margin: 0 auto;
+       }      
        
+.about{margin-top: 130px;
+       border-radius: 10px;
+       background: #FFF8F3;
+       padding: 130px 150px;
+       }
 
+.section-title{margin-bottom:30px;
+              text-align: center;
+              font-weight: 700;
+              font-size: 35px;
+       }
 
+.section-description{text-align: center;
+                     color: var(--Dark-03, #757575);
+                     font-size: 18px;
+                     margin-bottom: 30px;line-height: 30px;
+       }
 
+.about-info-container{display: flex; justify-content: space-around;}
+
+.info-title{color: var(--Dark-03, #757575);text-align: center;}
+
+.info-description{ font-size: 18px;}
+
+.what-i-do{margin-top: 130px;
+          font-size: 35px;
+          text-align: center;
+          margin-bottom: 30px;}
+
+.what-i-do-text{text-align: center;
+       color: var(--Dark-03, #757575);
+       line-height: 30px;font-weight: 400;
+       width: 900px;margin: 0 100px;
+       }
 
 
