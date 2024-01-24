@@ -22,7 +22,8 @@ nav ul{ display: flex;
             border: none;}
 
 .banner{ display: flex;
-       align-items: center;}
+       align-items: center;
+       margin: 0 030px;}
 
 .banner-title1{font-size: 45px;font-weight: 600;
               color: var(--Dark-02, #474747);
@@ -70,7 +71,7 @@ nav ul{ display: flex;
 
 .info-description{ font-size: 18px;}
 
-.what-i-do{margin-top: 130px;
+.what-i-do-title{margin-top: 130px;
           font-size: 35px;
           text-align: center;
           margin-bottom: 30px;}
@@ -78,7 +79,27 @@ nav ul{ display: flex;
 .what-i-do-text{text-align: center;
        color: var(--Dark-03, #757575);
        line-height: 30px;font-weight: 400;
-       width: 900px;margin: 0 100px;
+       width: 900px;margin: 0 130px;
        }
+
+.skill-container{display: flex;gap: 24px;
+}
+
+.skill-title{font-weight: 700;
+             font-size: 20px;
+             margin-top: 30px;
+             margin-bottom: 20px;}
+
+.skill-description{color: var(--Dark-03, #757575);
+                   font-size: 16px;
+                   font-weight: 400;}
+
+.skill{border-radius: 5px;
+       background: #FFF;
+       box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+       padding: 31px;
+       padding-top: 40px;
+       padding-bottom: 40px;}
+
 
 
